@@ -18,6 +18,7 @@ test:
   <<: *default
   database: personal_finance_test
 
+
 production:
   primary: &primary_production
     <<: *default
