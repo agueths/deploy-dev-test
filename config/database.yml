@@ -21,7 +21,7 @@ test:
 production:
   primary: &primary_production
     <<: *default
-    host: localhost
+    host: host.docker.internal
     username: postgres
     password: postgres
   cache:
